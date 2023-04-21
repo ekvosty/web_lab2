@@ -1,0 +1,24 @@
+section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 400px;
+}
+
+section > form 
+{
+	display: flex;
+	flex-direction: column;
+}
+
+section > form > * 
+{
+	margin-top: 15px;
+}
+
+textarea
+{
+	text-align: center;
+	width: 300px;
+}
